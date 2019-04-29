@@ -1,4 +1,4 @@
-FROM gradle:alpine
+FROM gradle:jdk8
 
 USER root
 RUN apk add --no-cache sudo \
